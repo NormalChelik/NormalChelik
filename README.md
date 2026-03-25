@@ -42,15 +42,6 @@ A compact overview of my development activity, language distribution, and overal
 
 <br>
 
-## Contribution Activity
-A broader visual look at how my work evolves over time, highlighting ongoing activity, project rhythm, and long-term consistency.
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=NormalChelik&bg_color=00000000&color=c9d1d9&line=38a169&point=7BCF9C&area=true&hide_border=true" />
-</p>
-
-<br>
-
 <p align="center">
   <a href="https://github.com/NormalChelik?tab=followers">
     <img src="https://img.shields.io/github/followers/NormalChelik?label=Followers&style=flat&color=38a169" />

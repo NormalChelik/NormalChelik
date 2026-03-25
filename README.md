@@ -7,7 +7,7 @@
 
   <br>
 
-  <img src="https://komarev.com/ghpvc/?username=NormalChelik&label=Profile+Views&color=38a169&style=flat" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=NormalChelik&label=Profile+Views&color=38a169&style=flat&abbreviated=true" alt="Profile views" />
 </div>
 
 <br>
@@ -43,13 +43,7 @@ A compact overview of my development activity, language distribution, and overal
 <br>
 
 <p align="center">
-  <a href="https://github.com/NormalChelik?tab=followers">
-    <img src="https://img.shields.io/github/followers/NormalChelik?label=Followers&style=flat&color=38a169" />
-  </a>
-  <a href="https://github.com/NormalChelik?tab=repositories">
-    <img src="https://img.shields.io/badge/Open%20Source-Building-1f7a4c?style=flat" />
-  </a>
-  <a href="https://github.com/NormalChelik">
-    <img src="https://img.shields.io/badge/Linux-Arch-14532d?style=flat&logo=arch-linux&logoColor=white" />
-  </a>
+  <a href="https://github.com/NormalChelik?tab=followers"><img src="https://img.shields.io/github/followers/NormalChelik?label=Followers&style=flat&color=38a169" /></a>&nbsp;
+  <a href="https://github.com/NormalChelik?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-Building-1f7a4c?style=flat" /></a>&nbsp;
+  <a href="https://github.com/NormalChelik"><img src="https://img.shields.io/badge/Linux-Arch-14532d?style=flat&logo=arch-linux&logoColor=white" /></a>
 </p>

@@ -1,0 +1,46 @@
+name: Update README Cards
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create cards directory
+        run: mkdir -p cards
+
+      - name: Generate Stats Card
+        uses: stats-organization/github-readme-stats-action@v2.0.1
+        with:
+          card: stats
+          options: 'username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=00000000&title_color=38a169&text_color=c9d1d9&icon_color=38a169&rank_icon=github'
+          path: cards/stats.svg
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Generate Top Langs Card
+        uses: stats-organization/github-readme-stats-action@v2.0.1
+        with:
+          card: top-langs
+          options: 'username=${{ github.repository_owner }}&layout=compact&hide_border=true&bg_color=00000000&title_color=38a169&text_color=c9d1d9'
+          path: cards/langs.svg
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Generate Streak Card
+        run: |
+          curl -f -s -o cards/streak.svg "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&hide_border=true&background=00000000&stroke=2e4d3a&ring=38a169&fire=38a169&currStreakNum=E6FFF2&sideNums=E6FFF2&currStreakLabel=38a169&sideLabels=7BCF9C&dates=8AA39A" || echo "Streak API unavailable, keeping old image"
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cards/*.svg
+          git commit -m "Update GitHub Stats Cards" || exit 0
+          git push

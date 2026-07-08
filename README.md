@@ -27,15 +27,15 @@ A compact overview of my development activity, language distribution, and overal
 <table align="center">
   <tr>
     <td valign="top">
-      <img height="165" src="https://github-readme-stats.vercel.app/api?username=NormalChelik&show_icons=true&hide_border=true&bg_color=00000000&title_color=38a169&text_color=c9d1d9&icon_color=38a169&rank_icon=github" />
+      <img height="140" src="./cards/stats.svg" />
     </td>
     <td valign="top">
-      <img height="85" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NormalChelik&layout=compact&hide_border=true&bg_color=00000000&title_color=38a169&text_color=c9d1d9" />
+      <img height="140" src="./cards/langs.svg" />
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center" valign="top">
-      <img height="165" src="https://streak-stats.demolab.com?user=NormalChelik&hide_border=true&background=00000000&stroke=2e4d3a&ring=38a169&fire=38a169&currStreakNum=E6FFF2&sideNums=E6FFF2&currStreakLabel=38a169&sideLabels=7BCF9C&dates=8AA39A" />
+      <img height="165" src="./cards/streak.svg" />
     </td>
   </tr>
 </table>
